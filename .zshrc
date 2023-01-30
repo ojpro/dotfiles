@@ -206,6 +206,7 @@ alias copy="xclip -sel clip"
 # Laravel
 alias pat="php artisan test"
 alias parl="php artisan route:list"
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 
 export PATH="$HOME/.config/composer/vendor/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
