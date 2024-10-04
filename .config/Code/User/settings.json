@@ -1,0 +1,228 @@
+{
+    "window.dialogStyle": "custom",
+    "editor.fontFamily": "\"FiraCode Nerd Font\"",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.renderLineHighlight": "gutter",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 2,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "svelte.enable-ts-plugin": true,
+    "quokka.compactMessageOutput": true,
+    "quokka.showOutputOnStart": false,
+    // auto-rename
+    "editor.linkedEditing": true,
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "typescript.preferences.renameMatchingJsxTags": true,
+    // auto-close
+    "html.autoClosingTags": true,
+    // auto-import
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+    },
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "editor.tokenColorCustomizations": {
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        },
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    //formating
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript][javascriptreact][typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json][jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css][scss][less]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "extensions.autoUpdate": false,
+    "gitlens.graph.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.views.commitDetails.files.layout": "list",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true
+    },
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSaveDelay": 500,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "git.autofetch": true,
+    "dart.flutterSdkPath": "/home/ojpro/Apps/flutter",
+    "editor.fontSize": 18,
+    "dart.runPubGetOnPubspecChanges": "prompt",
+    "editor.foldingStrategy": "indentation",
+    "editor.showFoldingControls": "always",
+    "editor.foldingHighlight": false,
+    "editor.foldingImportsByDefault": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "window.commandCenter": false,
+    "debug.console.fontSize": 18,
+    "scm.inputFontSize": 14,
+    "terminal.integrated.fontSize": 16,
+    "chat.editor.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.2,
+    "editor.suggest.showWords": false,
+    "editor.hover.sticky": true,
+    "apc.electron": {
+        "frame": false,
+        "transparent": true,
+        "titleBarStyle": "hidden",
+        "titleBarOverlay": {
+            "color": "#1e2030",
+            "symbolColor": "#eeffffc0",
+            "height": 0,
+        },
+        "vibrancy": "ultra-dark",
+    },
+    "apc.menubar.compact": true,
+    "apc.stylesheet": {
+        // "*": "font-family: FiraCode Nerd Font, monospace;",
+        "div.tab[aria-selected='true'] > .tab-border-top-container": "display: block !important; height: 2.5px; width: 100%; position: absolute; left: 0; background: linear-gradient(to bottom, #eee, #aaa); box-shadow: 0 0px 4px #aaa; z-index: 10",
+        "div.tab[aria-selected='true'] > .tab-border-bottom-container": "display: none !important",
+        // NOT TESTED
+        ".tabs-border-bottom::after": "background: transparent !important",
+        ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: transparent; color: #a7b0f3",
+        ".inline-title-bar:not(.horizontal-activitybar) .monaco-workbench:not(.fullscreen) .activitybar:not(.right) .content": "height: 100% !important; transform: none !important",
+        ".inline-title-bar:not(.horizontal-activitybar) .monaco-workbench div.activitybar.bordered.left .content": "border-right: 1px solid #0003 !important",
+        ".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before": "border: none !important; width: 2.5px; background: linear-gradient(to top, #06f, #0af); box-shadow: 5px 0 15px #08f",
+        ".custom-activitybar:not(.horizontal-activitybar) div.monaco-workbench div.activitybar>div.content div.monaco-action-bar ul.actions-container li.action-item": "margin-top: 0 !important",
+        // END
+        ".editor .title": "background: transparent !important;",
+        ".actions-container.highlight-toggled": "display: none !important;",
+        ".editor .title .actions-container . action-item a": "visibility: hidden",
+        ".editor .title .actions-container": "flex-direction: row-reverse",
+        // Only show scrollbar on hover
+        ".editor .scrollbar .slider": "visibility: hidden; border-radius: 4px",
+        ".editor .scrollbar:hover .slider": "visibility: initial",
+        // Change cursor color
+        ".monaco-editor .cursor": "background: red !important; height: 26px !important; margin-top: 4px",
+        // ".split-view-view": "font-size: 1.1em !important",
+    },
+    "apc.imports": [
+        "/home/ojpro/Work/Configs/VS Code/css/quickInput.css",
+    ],
+    "editor.minimap.renderCharacters": false,
+    "workbench.iconTheme": "symbols",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.folding": true,
+    "editor.lineDecorationsWidth": 0,
+    "editor.lineNumbersMinChars": 0,
+    "editor.roundedSelection": false,
+    "editor.cursorBlinking": "phase",
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.scrollbar.verticalScrollbarSize": 12,
+    "symbols.hidesExplorerArrows": true,
+    "window.customTitleBarVisibility": "never",
+    "workbench.tree.indent": 15,
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "workbench.statusBar.visible": false,
+    "window.zoomLevel": 0.3,
+    "workbench.startupEditor": "none",
+    "window.titleBarStyle": "custom",
+    "redhat.telemetry.enabled": false,
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "[mdx]": {
+        "editor.defaultFormatter": "unifiedjs.vscode-mdx"
+    },
+    "window.restoreWindows": "none",
+    "workbench.externalBrowser": "zen",
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.externalBrowser"
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "editor.lineNumbers": "interval",
+    "git.confirmSync": false,
+}
