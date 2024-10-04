@@ -184,3 +184,4 @@ setopt hist_verify
 # History search with arrow keys
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
+bindkey '^o'   clear-screen 
