@@ -1,7 +1,7 @@
 #export ZDOTDIR=/
 #
 # Global Variables
-# default terminal 
+# default terminal
 #export TERMINAL=gnome-terminal
 
 # flutter sdk path
@@ -46,3 +46,12 @@ export JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64"
 
 
 export XDG_CONFIG_HOME="$HOME/.config"
+
+export PATH=$PATH:/home/ojpro/.spicetify
+
+export PNPM_HOME="/home/ojpro/.local/share/pnpm"
+
+# fdfind
+export FZF_DEFAULT_COMMAND="fdfind --hidden --strip-cwd-prefix --exclude .git"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fdfind --type=d --hidden --strip-cwd-prefix --exclude .git"
