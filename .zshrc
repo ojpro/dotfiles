@@ -146,6 +146,8 @@ fi
 unset __conda_setup
 
 # pnpm setup
+export PNPM_HOME="/home/ojpro/.local/share/pnpm"
+
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
@@ -158,6 +160,10 @@ eval "$(zoxide init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # fd-based file finding for fzf
+export FZF_DEFAULT_COMMAND="fdfind --hidden --strip-cwd-prefix --exclude .git"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fdfind --type=d --hidden --strip-cwd-prefix --exclude .git"
+
 _fzf_compgen_path() {
   fdfind --hidden --exclude .git . "$1"
 }
