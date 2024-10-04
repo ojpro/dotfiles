@@ -44,3 +44,5 @@ export ANDROID_HOME=$HOME/Apps/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
 export JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64"
 
+
+export XDG_CONFIG_HOME="$HOME/.config"
