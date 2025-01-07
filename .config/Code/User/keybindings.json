@@ -335,5 +335,25 @@
     {
         "key": "ctrl+alt+u",
         "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "git-graph.view"
+    },
+    {
+        "key": "alt+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+f",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "alt+v",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "ctrl+k ctrl+\\",
+        "command": "-workbench.action.splitEditorLeft"
     }
 ]

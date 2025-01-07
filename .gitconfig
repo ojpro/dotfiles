@@ -23,3 +23,10 @@
 
 [diff]
     colorMoved = default
+
+
+
+# Configure credentials based on the folder
+
+[includeIf "gitdir:~/Work/Current/Djessy/"]
+    path = ~/Work/Current/Djessy/.gitconfig

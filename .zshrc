@@ -54,7 +54,7 @@ ZSH_THEME="robbyrussell"
 
 # ------------- PLUGINS -------------
 # Enable desired plugins.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting magic-enter)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting magic-enter laravel)
 
 # Load oh-my-zsh framework.
 source $ZSH/oh-my-zsh.sh
@@ -81,6 +81,7 @@ alias stow="stow -t $HOME"
 alias cpuinfo='lscpu'
 alias copy="xclip -sel clip"
 alias wget='wget -c'
+alias apt="nala"
 
 # System management
 alias _=sudo
