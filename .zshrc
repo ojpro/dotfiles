@@ -81,7 +81,7 @@ alias stow="stow -t $HOME"
 alias cpuinfo='lscpu'
 alias copy="xclip -sel clip"
 alias wget='wget -c'
-alias apt="nala"
+#alias apt="nala"
 
 # System management
 alias _=sudo
